@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+main {
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+main > div {
+    margin-bottom: 8px;
+}
+
+.title {
+    text-align: center;
+    background-color: white;
+    padding: 8px;
+}
+
+.content {
+    background-color: white;
+    padding: 10px
+}
+
+.hero-img {
+    margin: 10px auto;
+    display: block;
+}
+
+.hero-img > img {
+    width: 400px;
+    height: auto;
+}
+
+.section {
+    background-color: #e7ddff;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section :not(.section-header, em) {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-list {
+    list-style-position: inside;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+.recipe-list {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 0;
+}
+
+.recipe-list > li {
+    list-style-type: none;
+}
+
